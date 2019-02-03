@@ -14,6 +14,16 @@ AUTOMATIC = 2
 def executeCommand(gpu):
     command = "sudo pmset -a gpuswitch"
     os.system("%s %d" % (command,gpu))
+    promtResult(gpu)
+
+def promtResult(gpu):
+    if gpu == INTEGRATED:
+        print "Switched to iGPU"
+    elif gpu == DISCRETE:
+        print "Switched to dGPU"
+    else:
+        print "Automatic switching is enabled"
+
     
 if __name__ == "__main__":
     if args.integrated :
