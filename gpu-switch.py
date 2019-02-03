@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import os
 import argparse
 
@@ -28,19 +29,19 @@ def switch(mode,gpu):
 
 def promptResult(mode,gpu):
     if mode == BATTERYMODE:
-        print "Battery mode: using integrated GPU"
+        print("Battery mode: using integrated GPU")
         return
     if mode == CHARGINGMODE:
-        print "Charing mode: using discrete GPU"
+        print("Charing mode: using discrete GPU")
         return
     else:   
         if gpu == INTEGRATED:
-            print "Using iGPU"
+            print("Using iGPU in all mode")
         elif gpu == DISCRETE:
-            print "Using dGPU"
+            print("Using dGPU in all mode")
         elif gpu == AUTOMATIC:
-            print "All automatic switching is enabled"
-
+            print("All automatic switching is enabled")
+            
 if __name__ == "__main__":
     if args.integrated :
         switch(ALLMODE,INTEGRATED)
