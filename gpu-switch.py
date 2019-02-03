@@ -19,7 +19,6 @@ ALLMODE = "-a"
 INTEGRATED = 0
 DISCRETE = 1
 AUTOMATIC = 2
-BCMODE = 3
 
 def switch(mode,gpu):
     command1 = "sudo pmset"
@@ -29,9 +28,10 @@ def switch(mode,gpu):
 
 def promptResult(mode,gpu):
     if mode == BATTERYMODE:
-        print "Battery mode: using integrate GPU \nCharing mode: using discrete GPU"
+        print "Battery mode: using integrated GPU"
         return
     if mode == CHARGINGMODE:
+        print "Charing mode: using discrete GPU"
         return
     else:   
         if gpu == INTEGRATED:
