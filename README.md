@@ -4,7 +4,7 @@
 ## Usage
 After successful installation, make sure "Automatically graphics switching" option is enable in "Engery Saver" in Mac's System Preferences.
 
-Type `gpu-switch` commands in any command/terminal app as follow:
+Type `gpu-switch` commands in terminal app as follow:
 
 * To use iGPU in both battery and charging modes:  ```gpu-switch -i``` 
 * To use dGPU in both battery and charging modes: ```gpu-switch -d```
