@@ -2,7 +2,8 @@
  Simple CLI shortcut to manually hot-switch between integrated and discrete GPUs for __dual-GPU Macs__ by running a few selected `pmset` commands
  
 ## Usage
-After successful installation, type `gpu-switch` commands in any command/terminal app as follow:
+After successful installation, make sure "Automatically graphics switching" option is enable in "Engery Saver" in Mac's System Preferences
+type `gpu-switch` commands in any command/terminal app as follow:
 
 * To use iGPU in both battery and charging modes:  ```gpu-switch -i``` 
 * To use dGPU in both battery and charging modes: ```gpu-switch -d```
@@ -16,9 +17,9 @@ After successful installation, type `gpu-switch` commands in any command/termina
 Copy __gpu-switch__ executable file to `usr/local/bin` directory manually  or running __install__ file
 #### Uninstallation:
 Delete __gpu-switch__ executable file from `usr/local/bin` directory manually or running __uninstall__ file
-
+your
 ## Warnings
-* This script only works if your Mac is dual-GPU and works with `pmset` commands
+* This script only works if  Mac is dual-GPU and works with `pmset` commands
 * For compatibility check: run `pmset -g` in terminal.
 * This script is simply a shortcut for `pmset` commands which __requires root permission__ as does `pmset`
 
