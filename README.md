@@ -2,8 +2,9 @@
  Simple CLI shortcut to manually hot-switch between integrated and discrete GPUs for __dual-GPU Macs__ by running a few selected `pmset` commands
  
 ## Usage
-After successful installation, make sure "Automatically graphics switching" option is enable in "Engery Saver" in Mac's System Preferences
-type `gpu-switch` commands in any command/terminal app as follow:
+After successful installation, make sure "Automatically graphics switching" option is enable in "Engery Saver" in Mac's System Preferences.
+
+Type `gpu-switch` commands in any command/terminal app as follow:
 
 * To use iGPU in both battery and charging modes:  ```gpu-switch -i``` 
 * To use dGPU in both battery and charging modes: ```gpu-switch -d```
