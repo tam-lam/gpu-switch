@@ -23,6 +23,7 @@ Delete __gpu-switch__ executable file from `usr/local/bin` directory manually or
 * This script only works if  Mac is dual-GPU and works with `pmset` commands
 * For compatibility check: run `pmset -g` in terminal.
 * This script is simply a shortcut for `pmset` commands which __requires root permission__ as does `pmset`
+* Remember to go back to automatic switching in newer mac model to use external displays
 
 ## Recommendation
 __gfxCardStatus__ is recommended regradless to keep track of which GPU is activated as all time
