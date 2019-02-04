@@ -18,7 +18,7 @@ Type `gpu-switch` commands in terminal app as follow:
 Copy __gpu-switch__ executable file to `usr/local/bin` directory manually  or running __install__ file
 #### Uninstallation:
 Delete __gpu-switch__ executable file from `usr/local/bin` directory manually or running __uninstall__ file
-your
+
 ## Warnings
 * This script only works if  Mac is dual-GPU and works with `pmset` commands
 * For compatibility check: run `pmset -g` in terminal.
