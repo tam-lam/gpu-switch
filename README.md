@@ -26,7 +26,7 @@ Delete __gpu-switch__ executable file from `usr/local/bin` directory manually or
 * Remember to go back to automatic switching in newer mac model to use external displays
 
 ## Recommendation
-__gfxCardStatus__ is recommended regradless to keep track of which GPU is activated as all time
+__gfxCardStatus__ is recommended regradless to keep track of which GPU is activated at all time
 
 ## Tested
 on a 15'' MBP 2018
