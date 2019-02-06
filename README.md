@@ -1,5 +1,5 @@
 # gpu-switch
- Simple CLI shortcut to manually hot-switch between integrated and discrete GPUs for __dual-GPU Macs__ by running a few selected `pmset` commands
+ Simple CLI shortcut to manually hot-switch between integrated and discrete GPUs for __dual-GPU Macbooks__ by running a few selected `pmset` commands
  
 ## Usage
 After successful installation, make sure "Automatically graphics switching" option is enable in "Engery Saver" in Mac's System Preferences.
@@ -23,7 +23,7 @@ Delete __gpu-switch__ executable file from `usr/local/bin` directory manually or
 * This script only works if  Mac is dual-GPU and works with `pmset` commands
 * For compatibility check: run `pmset -g` in terminal.
 * This script is simply a shortcut for `pmset` commands which __requires root permission__ as does `pmset`
-* Remember to go back to automatic switching in newer mac model to use external displays
+* Remember to go back to automatic switching or discrete graphic in newer mac models to use external displays.
 
 ## Recommendation
 __gfxCardStatus__ is recommended regradless to keep track of which GPU is activated at all time

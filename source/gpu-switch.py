@@ -38,9 +38,9 @@ def switch(mode,gpu):
 def promptResult(mode,gpu):
     if mode == ALLMODE:  
         if gpu == INTEGRATED:
-            print("Using iGPU in in both battery and charging modes")
+            print("Using iGPU in both battery and charging modes")
         elif gpu == DISCRETE:
-            print("Using dGPU in in both battery and charging modes")
+            print("Using dGPU in both battery and charging modes")
         elif gpu == AUTOMATIC:
             print("Automatic graphics switching is enabled for all modes (Default setting)")
     else:
